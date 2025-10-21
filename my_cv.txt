@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online CV</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffe6f0; /* pastel pink background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcce6; /* slightly darker pink */
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #990033;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 18px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff0f5;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #ffcce6;
+            padding-bottom: 5px;
+            color: #990033;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        img.profile {
+            display: block;
+            max-width: 200px;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+        }
+
+		img.profile:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 153, 204, 0.7);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #666;
+            background-color: #ffcce6;
+        }
+
+        a {
+            color: #990033;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mpumelelo Mbatha</h1>
+    <p>Software Developer</p>
+</header>
+
+<main>
+    <!-- Profile Image -->
+    <img src="https://i.postimg.cc/fWKgdGwZ/IMG-4314.jpg" alt="Profile Picture" class="profile">
+
+    <!-- About Me Section -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+		I am a full-time student pursuing a Law degree, with a background in Economic Science from Stellenbosch University.
+		My studies have strengthened my analytical thinking and problem-solving abilities,
+		which I now apply to developing logical and structured approaches in software projects.
+		</p>
+        <p>
+		My goal is to successfully pursue my Law degree while working part-time in software development.
+		I aspire to collaborate with small businesses, helping them grow by building efficient,
+		user-friendly software solutions,
+		and ultimately turn this passion into a software consulting business of my own.
+		</p>
+    </section>
+
+	 <!-- Skills -->
+    <section>
+        <h2>Skills & Competencies</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Programming</li>
+            <li>Version control</li>
+            <li>Software Design</li>
+			<li>API Automation</li>
+        </ul>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+        <p>NSC, St Dominic's Catholic School, 2021</p>
+		<p>Economic Science, Stellenbosch University, 2022-</p>
+        <p>Directorate of Music (Pianoforte), Unisa, 2011-2021</p>
+    </section>
+
+	<!-- Additional Certifications -->
+	<section>
+        <h2>Additional Certifications</h2>
+		<p>Directorate of Music (Pianoforte), Unisa, 2011-2021</p>
+        <p>Software Engineering Course, HyperionDev, 2025</p>
+    </section>
+
+<!-- Optional: Blog / Articles -->
+    <section>
+        <h2>First website created for a small business</h2>
+        <ul>
+            <li><a href="https://hmclogistics.company/" target="_blank">HMC Logistics Webpage</a></li>
+        </ul>
+    </section>
+</main>
+
+    <!-- Contact Details -->
+    <section>
+        <h2>Contact Details</h2>
+        <p>Name: Mpumelelo Mbatha</p>
+        <p>Phone: +27 66 224 2705</p>
+        <p>Email: <a href="mailto:mmkmbatha@gmail.com">mmkmbatha@gmail.com</a></p>
